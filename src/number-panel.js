@@ -162,9 +162,9 @@ function numberPanel(element, standardJSON, standard) {
 
   className = ".standard-identity-1";
   var standardIdentity1Default = {
-    0: { index: 0, name: "Reality" },
-    1: { index: 1, name: "Exercise" },
-    2: { index: 2, name: "Simulation" }
+    0: { index: 0, name: "Реальність" },
+    1: { index: 1, name: "Вправа/Учбові заняття" },
+    2: { index: 2, name: "Симуляція" }
   };
   this.mdcSelects[className] = this.initSelect(
     panel,
@@ -184,26 +184,26 @@ function numberPanel(element, standardJSON, standard) {
 
   className = ".standard-identity-2";
   var standardIdentity2Default = {
-    0: { code: 0, index: 0, name: "Pending", sidc: "10001000000000000000" },
-    1: { code: 1, index: 1, name: "Unknown", sidc: "10011000000000000000" },
+    0: { code: 0, index: 0, name: "Очікується", sidc: "10001000000000000000" },
+    1: { code: 1, index: 1, name: "Невідомо", sidc: "10011000000000000000" },
     2: {
       code: 2,
       index: 2,
-      name: "Assumed Friend",
+      name: "Передбачувано дружні сили",
       sidc: "10021000000000000000"
     },
-    3: { code: 3, index: 3, name: "Friend", sidc: "10031000000000000000" },
-    4: { code: 4, index: 4, name: "Neutral", sidc: "10041000000000000000" },
+    3: { code: 3, index: 3, name: "Дружні сили", sidc: "10031000000000000000" },
+    4: { code: 4, index: 4, name: "Нейтральні сили", sidc: "10041000000000000000" },
     5: {
       code: 5,
       index: 5,
-      name: "Suspect/Joker",
+      name: "Передбаучвано ворожі сили/Учбовий",
       sidc: "10051000000000000000"
     },
     6: {
       code: 6,
       index: 6,
-      name: "Hostile/Faker",
+      name: "Ворожі сили/Учбовий",
       sidc: "10061000000000000000"
     }
   };
@@ -282,35 +282,35 @@ function numberPanel(element, standardJSON, standard) {
 
   className = ".status";
   var statusDefault = {
-    0: { code: 0, index: 0, name: "Present", sidc: "10031000000000000000" },
+    0: { code: 0, index: 0, name: "Наявний", sidc: "10031000000000000000" },
     1: {
       code: 1,
       index: 1,
-      name: "Planned/Anticipated/Suspect",
+      name: "Запланований/очікуваний/підозрюваний",
       sidc: "10031010000000000000"
     },
     2: {
       code: 2,
       index: 2,
-      name: "Present/Fully capable",
+      name: "Наявний/Повністю дієздатний",
       sidc: "10031020000000000000"
     },
     3: {
       code: 3,
       index: 3,
-      name: "Present/Damaged",
+      name: "Наявний/Пошкоджений",
       sidc: "10031030000000000000"
     },
     4: {
       code: 4,
       index: 4,
-      name: "Present/Destroyed",
+      name: "Наявний/Знищений",
       sidc: "10031040000000000000"
     },
     5: {
       code: 5,
       index: 5,
-      name: "Present/Full to capacity",
+      name: "Наявний/Повна потужність",
       sidc: "10031050000000000000"
     }
   };

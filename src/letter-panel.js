@@ -145,21 +145,21 @@ function letterPanel(element, standardJSON, standard) {
 
   className = ".affiliation";
   var affiliationDefault = {
-    P: { index: 0, name: "Pending", sidc: "SPGP" },
-    U: { index: 1, name: "Unknown", sidc: "SUGP" },
-    A: { index: 2, name: "Assumed Friend", sidc: "SAGP" },
-    F: { index: 3, name: "Friend", sidc: "SFGP" },
-    N: { index: 4, name: "Neutral", sidc: "SNGP" },
-    S: { index: 5, name: "Suspect", sidc: "SSGP" },
-    H: { index: 6, name: "Hostile", sidc: "SHGP" },
-    G: { index: 7, name: "Exercise Pending", sidc: "SGGP" },
-    W: { index: 8, name: "Exercise Unknown", sidc: "SWGP" },
-    D: { index: 9, name: "Exercise Friend", sidc: "SDGP" },
-    L: { index: 10, name: "Exercise Neutral", sidc: "SLGP" },
-    M: { index: 11, name: "Exercise Assumed Friend", sidc: "SMGP" },
-    J: { index: 12, name: "Joker", sidc: "SJGP" },
-    K: { index: 13, name: "Faker", sidc: "SKGP" },
-    O: { index: 14, name: "None Specified", sidc: "SOGP" }
+    P: { index: 0, name: "Очікується", sidc: "SPGP" },
+    U: { index: 1, name: "Невідомо", sidc: "SUGP" },
+    A: { index: 2, name: "Передбаучвано дружні сили", sidc: "SAGP" },
+    F: { index: 3, name: "Дружні сили", sidc: "SFGP" },
+    N: { index: 4, name: "Нейтральні сили", sidc: "SNGP" },
+    S: { index: 5, name: "Передбаучвано ворожі сили", sidc: "SSGP" },
+    H: { index: 6, name: "Ворожі сили", sidc: "SHGP" },
+    G: { index: 7, name: "Очікується (Учбовий)", sidc: "SGGP" },
+    W: { index: 8, name: "Невідомі сили (Учбовий)", sidc: "SWGP" },
+    D: { index: 9, name: "Дружні сили (Учбовий)", sidc: "SDGP" },
+    L: { index: 10, name: "Нейтральні сили (Учбовий)", sidc: "SLGP" },
+    M: { index: 11, name: "Передбаучвано дружні сили (Учбовий)", sidc: "SMGP" },
+    J: { index: 12, name: "Передбаучвано ворожі сили (Учбовий)", sidc: "SJGP" },
+    K: { index: 13, name: "Ворожі сили (Учбовий)", sidc: "SKGP" },
+    O: { index: 14, name: "Не зазначено", sidc: "SOGP" }
   };
   this.mdcSelects[className] = this.initSelect(
     panel,
@@ -222,12 +222,12 @@ function letterPanel(element, standardJSON, standard) {
 
   className = ".status";
   var statusDefault = {
-    A: { index: 0, name: "Anticipated/Planned", sidc: "SFGA" },
-    P: { index: 1, name: "Present", sidc: "SFGP" },
-    C: { index: 2, name: "Present/Fully Capable", sidc: "SFGC" },
-    D: { index: 3, name: "Present/Damaged", sidc: "SFGD" },
-    X: { index: 4, name: "Present/Destroyed", sidc: "SFGX" },
-    F: { index: 5, name: "Present/Full To Capacity", sidc: "SFGF" }
+    A: { index: 0, name: "Передбачається/планується", sidc: "SFGA" },
+    P: { index: 1, name: "Наявний", sidc: "SFGP" },
+    C: { index: 2, name: "Наявний/повністю спроможний", sidc: "SFGC" },
+    D: { index: 3, name: "Наявний/", sidc: "SFGD" },
+    X: { index: 4, name: "Наявний/Знищений", sidc: "SFGX" },
+    F: { index: 5, name: "Наявний/Повна потужність", sidc: "SFGF" }
   };
   this.mdcSelects[className] = this.initSelect(
     panel,

@@ -4,7 +4,7 @@ export default function headquartersTaskforceDummy(symbolset) {
       0: {
         code: 0,
         index: 0,
-        name: "Not Applicable",
+        name: "Не застосовується",
         sidc: "10031000000000000000"
       },
       1: {
@@ -16,7 +16,7 @@ export default function headquartersTaskforceDummy(symbolset) {
       2: {
         code: 2,
         index: 2,
-        name: "Headquarters",
+        name: "Штаб",
         sidc: "10031002000000000000"
       },
       3: {
@@ -28,7 +28,7 @@ export default function headquartersTaskforceDummy(symbolset) {
       4: {
         code: 4,
         index: 4,
-        name: "Task Force",
+        name: "Оперативна група",
         sidc: "10031004000000000000"
       },
       5: {
@@ -40,7 +40,7 @@ export default function headquartersTaskforceDummy(symbolset) {
       6: {
         code: 6,
         index: 6,
-        name: "Task Force Headquarters",
+        name: "Штаб оперативної групи",
         sidc: "10031006000000000000"
       },
       7: {
